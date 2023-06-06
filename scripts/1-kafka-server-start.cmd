@@ -1,0 +1,1 @@
+kafka-server-start.bat C:\Users\nalve\kafka\config\server-1.properties
