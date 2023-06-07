@@ -33,6 +33,7 @@ public class Dispatcher implements Runnable {
                 producer.send(new ProducerRecord<>(topicName, null, line));
                 counter++;
             }
+            System.out.print("Sent..");
             logger.info("Finished Sending " + counter + " messages from " + fileLocation);
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);

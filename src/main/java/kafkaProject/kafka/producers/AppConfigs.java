@@ -2,7 +2,7 @@ package kafkaProject.kafka.producers;
 
 class AppConfigs {
     final static String applicationID = "Multi-Threaded-Producer";
-    final static String topicName = "nse-eod-topic";
+    final static String topicName = "topic1";
     final static String kafkaConfigFileLocation = "kafka.properties";
     final static String[] eventFiles = {"data/NSE05NOV2018BHAV.csv","data/NSE06NOV2018BHAV.csv"};
 }
